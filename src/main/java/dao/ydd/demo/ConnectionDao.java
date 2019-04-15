@@ -13,9 +13,12 @@ public class ConnectionDao {
 		try {
 			conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			// TODO Au5to-generated catch block
 			e.printStackTrace();
 		}
+		
 		return conn;
-	}
+	};
+	
+	
 }
