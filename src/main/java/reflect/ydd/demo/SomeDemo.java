@@ -1,4 +1,4 @@
-package ∑¥…‰.ydd.demo;
+package reflect.ydd.demo;
 
 public class SomeDemo {
 

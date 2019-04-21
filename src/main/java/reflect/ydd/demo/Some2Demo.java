@@ -1,4 +1,4 @@
-package 反射.ydd.demo;
+package reflect.ydd.demo;
 
 import java.lang.reflect.Constructor;
 
@@ -7,8 +7,8 @@ public class Some2Demo {
 	public static void main(String[] args) throws Exception {
 		//Class clz = Class.forName("反射.ydd.demo.Some", false, Some.class.getClassLoader());
 		Class clazz =  Class.forName("反射.ydd.demo.Some");
-		Class cl1 = Class.forName("反射.ydd.demo.Some", false, Some.class.getClassLoader());
-		Class cl2 = Class.forName("反射.ydd.demo.Some", false, Some2Demo.class.getClassLoader());
+		Class cl1 = Class.forName("reflect.ydd.demo.Some", false, Some.class.getClassLoader());
+		Class cl2 = Class.forName("reflect.ydd.demo.Some", false, Some2Demo.class.getClassLoader());
 		System.out.printf("equal :%s %n" , cl1 == cl2);
 		System.out.printf("some loader %s %n", Some.class.getClassLoader().getClass().getName());
 		System.out.printf("somedemo2 loader %s %n", Some2Demo.class.getClassLoader().getClass().getName());
