@@ -5,8 +5,8 @@ import java.lang.reflect.Constructor;
 public class Some2Demo {
 	
 	public static void main(String[] args) throws Exception {
-		//Class clz = Class.forName("∑¥…‰.ydd.demo.Some", false, Some.class.getClassLoader());
-		Class clazz =  Class.forName("∑¥…‰.ydd.demo.Some");
+		//Class clz = Class.forName("reflect.ydd.demo.Some", false, Some.class.getClassLoader());
+		Class clazz =  Class.forName("reflect.ydd.demo.Some");
 		Class cl1 = Class.forName("reflect.ydd.demo.Some", false, Some.class.getClassLoader());
 		Class cl2 = Class.forName("reflect.ydd.demo.Some", false, Some2Demo.class.getClassLoader());
 		System.out.printf("equal :%s %n" , cl1 == cl2);

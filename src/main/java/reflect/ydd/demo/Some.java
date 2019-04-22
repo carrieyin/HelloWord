@@ -5,6 +5,9 @@ import java.util.ArrayList;
 
 
 public class Some {
+	static{
+		System.out.println("Someº”‘ÿ");
+	}
 	
 	public Some(){
 		
