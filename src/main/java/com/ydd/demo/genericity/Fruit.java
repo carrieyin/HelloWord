@@ -7,6 +7,23 @@ public class Fruit {
 		this.price = price;
 		this.weight = weight;
 	}
+	
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
 	public Fruit() {
 	}
 }
@@ -14,20 +31,26 @@ public class Fruit {
 class Apple extends Fruit{
 	Apple(){
 	}
-
+	public Apple(int price, int weight) {
+		this.price = price;
+		this.weight = weight;
+	}
 	public String toString() {
 		return "Apple []";
 	}	
 }
 
-class Bonana extends Fruit{
+class Bonana extends Fruit{	
 	Bonana(){
 		
 	}
-
+	public Bonana(int price, int weight) {
+		this.price = price;
+		this.weight = weight;
+	}
+	
 	public String toString() {
 		return "Bonana []";
 	}
-	
 	
 }
