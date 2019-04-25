@@ -1,4 +1,4 @@
-package com.ydd.demo.enumdemo;
+package com.ydd.demo.enumtest;
 
 public enum Priorty {
 	MAX(10), NORM(5), MINI(1);

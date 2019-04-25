@@ -1,4 +1,4 @@
-package com.ydd.demo.enumdemo;
+package com.ydd.demo.enumtest;
 
 public enum Action3 implements Command{
 	STOP, RIGHT, LEFT, UP, DOWN;

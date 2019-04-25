@@ -1,4 +1,4 @@
-package com.ydd.demo.enumdemo;
+package com.ydd.demo.enumtest;
 
 public class EnumDemo {
 
