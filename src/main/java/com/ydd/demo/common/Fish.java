@@ -6,8 +6,9 @@ public class Fish extends Animal{
 		super(name);
 	}
 
-	public void run() {
+	public Animal run() {
 		System.out.println(name + "ÔÚÓÎÓ¾");
+		return this;
 	}
 	
 	public void bubble(){

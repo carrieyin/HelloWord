@@ -8,8 +8,9 @@ public class Mouse extends Animal{
 		super(name);
 		
 	}
-	public void run() {
+	public Animal run() {
 		System.out.println("ÀÏÊóÔÚÅÜ");
+		return this;
 	}
 	
 	public void dig(){

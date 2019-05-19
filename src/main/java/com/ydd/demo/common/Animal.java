@@ -6,5 +6,11 @@ public abstract class Animal {
 		this.name = name;
 	}
 	
-	public abstract void run();
+	public abstract Animal run();
+
+	public void sleep() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
