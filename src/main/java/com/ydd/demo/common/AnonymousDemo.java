@@ -1,7 +1,11 @@
 package com.ydd.demo.common;
 
 public class AnonymousDemo {
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		class Dog extends Animal{
@@ -51,7 +55,23 @@ public class AnonymousDemo {
 		a.run();
 		a.sleep();
 		//bit无法调用，只能用局部内部类解决
-		
+		test();
 	}
 
+	
+	
+	
+	public static void test(){
+		
+		for (int i = 0; i < 10; i++) {
+			
+			int a = 0 ;
+			a++;
+			System.out.printf("a:%d,",a);
+			System.out.println();
+			
+			
+			
+		}
+	}
 }
