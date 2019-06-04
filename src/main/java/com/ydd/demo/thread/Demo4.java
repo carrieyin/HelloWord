@@ -2,10 +2,11 @@ package com.ydd.demo.thread;
 
 class SaleTicket extends Thread{
 	static int num = 50;
+	static Object o = new Object(); //锁对象必须是对象共享的
 	@Override
 	public void run() {
 		while(true){
-			synchronized ("锁定对象") {
+			synchronized (o) {
 				if(num > 0){
 					System.out.println(Thread.currentThread().getName() + "卖了:" + num);
 					num--;
