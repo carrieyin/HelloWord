@@ -32,9 +32,9 @@ public class Demo1 {
 
 	public static void main(String[] args) {
 		HashSet s = new HashSet();
-		s.add("张三");
+		/*s.add("张三");
 		s.add("lisi");
-		s.add("王五");
+		s.add("王五")*/;
 		s.add(new Person(110, "xiaohong"));
 		s.add(new Person(220, "狗剩"));
 		s.add(new Person(110, "大黑熊"));
