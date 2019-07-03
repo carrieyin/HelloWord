@@ -29,5 +29,9 @@ public class Demo1 {
 		String str1 = "明天天  --- 放假假   了";
 		String[] arr1 = str1.split("(.)\\1+");
 		System.out.println(Arrays.toString(arr1));
+		
+		//-------------------替换-------------------------------
+		String str2 = "我要要要做做做项目";
+		System.out.println(str2 + "---替换后:" + str2.replaceAll("(.)\\1+","$1"));
 	}
 }
