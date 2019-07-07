@@ -13,6 +13,7 @@ public class Demo1 {
 		
 		System.out.println(Integer.parseInt("300"));
 		System.out.println(Integer.parseInt("10", 8));
+		Integer.toBinaryString(i)
 	}
 
 	public static void test(int... arg) {
